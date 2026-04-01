@@ -1,0 +1,14 @@
+resource_id,service,environment,monthly_cost,cpu_utilization_percent,storage_gb,last_access_days,owner
+ec2-prod-1,EC2,production,420,8,0,2,platform-team
+ec2-dev-1,EC2,development,180,12,0,5,dev-team
+ec2-qa-1,EC2,qa,150,6,0,11,qa-team
+rds-prod-1,RDS,production,560,35,0,1,data-team
+rds-dev-1,RDS,development,220,10,0,14,dev-team
+s3-archive-1,S3,production,140,0,2500,180,security-team
+s3-logs-1,S3,production,95,0,1200,90,ops-team
+eks-cluster-a,EKS,production,700,22,0,3,platform-team
+eks-cluster-dev,EKS,development,310,9,0,10,dev-team
+ebs-volume-1,EBS,production,85,0,800,120,platform-team
+ebs-volume-2,EBS,development,60,0,500,200,dev-team
+lambda-reporting,Lambda,production,40,0,0,1,analytics-team
+nat-gateway-1,NATGateway,production,210,0,0,2,network-team
